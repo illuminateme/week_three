@@ -1,4 +1,7 @@
 fun main() {
+printNumbers()
+}
+fun printNumbers () {
     for (i in 1..100) {
         when {
             i % 15 == 0 -> println("FizzBuzz")
